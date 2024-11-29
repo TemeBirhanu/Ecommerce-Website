@@ -21,12 +21,12 @@ const OrderSchema = new mongoose.Schema({
     notes: String,
   },
   orderStatus: String,
-  paywatchestMethod: String,
-  paywatchestStatus: String,
+  paymentMethod: String,
+  paymentStatus: String,
   totalAmount: Number,
   orderDate: Date,
   orderUpdateDate: Date,
-  paywatchestId: String,
+  paymentId: String,
   payerId: String,
 });
 
